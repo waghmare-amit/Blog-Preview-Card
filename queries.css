@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+
+
+    .main-container {
+        width: 45%;
+        height: fit-content;
+    }
+
+    .card-image {
+        margin-top: 0;
+    }
+
+    .card-image img {
+        background-color: aqua;
+        width: 100%;
+    }
+
+    .learn {
+        width: fit-content;
+        margin-top: 1rem;
+    }
+
+    .description {
+        margin-top: 1.3rem;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    h2 {
+        margin-top: 0.8rem;
+
+        font-size: 0.8rem;
+    }
+
+    .card-footer {
+        height: 5rem;
+
+        padding-left: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .avatar {
+        width: 20%;
+    }
+
+    .author-name {
+        width: 100%;
+
+        margin-left: 0.3rem;
+
+        font-size: 0.8rem;
+
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 660px) {
+
+    html {
+        font-size: 62.5%;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    html {
+        font-size: 50%;
+    }
+
+}
